@@ -98,6 +98,8 @@ svg.addTaskContainer__limitSelectButtonIcon {fill: #fff;}
 span.icoFontInfo.marginRight {display: none;}
 code.chatCode.hljs {background-color: #f3f3f3; border: 1px dotted #abaaaa;}
 svg.fileWindowPagerContainer__pagerIcon {fill: #ccc;}
+li.roomListBadges__taskBadge {color: #006b9c;}
+span.roomListBadges__taskBadgeIcon.icoFontActionTask {color: #006b9c;}
 
 /* 背景黒くしたい時 
 div#_subRoomDescription>pre {color: #fff;}
