@@ -1,3 +1,4 @@
+
 body, pre, input, select, textarea, button { font-family: -apple-system,BlinkMacSystemFont,".SFNSDisplay-Regular","Noto Sans CJK JP Demilight","Segoe UI","Hiragino Sans","ヒラギノ角ゴシック","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3",Meiryo,"メイリオ","MS PGothic","ＭＳ Ｐゴシック",sans-serif;}
 .wrapper { background: #dddddd;}
 
@@ -96,7 +97,7 @@ svg.addTaskContainer__assigneeAddButtonIcon {fill: #fff;}
 svg.addTaskContainer__limitSelectButtonIcon {fill: #fff;}
 span.icoFontInfo.marginRight {display: none;}
 code.chatCode.hljs {background-color: #f3f3f3; border: 1px dotted #abaaaa;}
-
+svg.fileWindowPagerContainer__pagerIcon {fill: #ccc;}
 
 /* 背景黒くしたい時 
 div#_subRoomDescription>pre {color: #fff;}
@@ -109,6 +110,4 @@ label._cwCBLabel.cwTextUnselectable.linkStatus {color: #fff;}
 svg.roomDescription__editButtonIcon {fill: #fff;}
 div#_subRoomProfileLink a {color: #97e4ff; text-decoration: underline;}
  背景黒用ここまで */
-
-
 
