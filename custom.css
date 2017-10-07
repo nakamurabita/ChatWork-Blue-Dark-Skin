@@ -1,0 +1,114 @@
+body, pre, input, select, textarea, button { font-family: -apple-system,BlinkMacSystemFont,".SFNSDisplay-Regular","Noto Sans CJK JP Demilight","Segoe UI","Hiragino Sans","ヒラギノ角ゴシック","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3",Meiryo,"メイリオ","MS PGothic","ＭＳ Ｐゴシック",sans-serif;}
+.wrapper { background: #dddddd;}
+
+
+._cwLTList {max-height: 300px!important; height: 260px!important; min-height: 260px !important;}
+.__x-ResizeGroupListHeight-enabled #_roomListItems li { height: 25px; min-height: 0; padding-left: 10px; font-size: 95%; height: auto;}
+.__x-ResizeGroupListHeight-enabled .roomListItem__roomInfo { color: #c4c8d5; width: calc(100% - 30px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.roomDescription__avatar--group {border-radius: 30px; background-color: #fff; width: 30px; height: 30px;border: 1px #a7a6a6 solid;}
+div#_subRoomDescriptionWrapper {background-color: transparent;}
+
+.subRoomInformation__main { padding: 10px; position: relative; min-height: 12em;}
+div#_subRoomDescriptionWrapper { min-height: 12em;}
+#_chatFilterMenu { height: 38px!important;margin-top: 15px;}
+input[type="search"] { display: none;}
+roomTask__emptyContainer { display: none;}
+.chatRoomHeader {background-color: #6a98af;}
+h1#_roomTitle {color: #ffffff;}
+.chatRoomHeader__pin {fill: #c4c8d5;}
+.chatInput__textarea--existExternalUser { background: #ffffff;}
+
+.roomListItem__hasOthers { visibility: hidden;}
+.roomListItem__roomInfoContainer { padding-top: 4px; overflow: hidden; padding-left: 5px!important;}
+.ico35Other { visibility: hidden;}
+.roomFilterMenu__homeIcon {color: #c4c8d5;}
+.roomFilterMenu__unreadIcon {color: #c4c8d5;}
+.roomFilterMenu__mentionIcon {color: #c4c8d5;}
+.roomFilterMenu__taskIcon {color: #c4c8d5;}
+.roomFilterMenu__categoryIcon {display: none;}
+.roomListItem .roomIcon .avatarMedium {border-radius: 20px; background-color: #fff;border: 1px #a7a6a6 solid;}
+
+div#_subRoomDescription>pre { font-size: 12px !important;}
+.globalHeaderBranding__chatworkSvgLogo { filter: saturate(50%) hue-rotate(207deg);}
+.roomFilterMenu__taskCount {background-color: #006a9c;}
+.roomFilterMenu__unreadCount {background-color: #006a9c;}
+.roomFilterMenu__mentionCount {background-color: #006a9c;}
+.globalHeaderNavItem__badge {background-color: #006a9c;}
+
+.roomListContainer__title { color: #c4c8d5;}
+.__x-ResizeGroupListHeight-enabled #_roomListItems .roomListItem { padding: 3px 0 6px 10px;}
+.roomListContainer {background-color: #34362f;}
+.roomListContainer__header {background-color: #34362f; border-bottom: 0px;}
+.roomFilterMenu {background-color: #34362f; border-bottom: 0px;}
+.roomListItem {border-bottom: 0px;}
+.roomTask__emptyContainer { display: none;}
+div#_subEditRoomInfo { background-color: transparent;}
+
+.roomLimitOver {box-shadow: none; padding: 10px 0 10px; margin-top: 15px; text-align: center;}
+li.roomListBadges__unreadBadge._unreadBadge { display: none;}
+.roomListBadges__mentionBadge { background-color: #a19c9c;}
+#_searchResultChatList .roomListItem__roomName.roomListItem__roomName { color: #333 !important;}
+li.roomListItem--selected p.roomListItem__roomName.roomListItem__roomName {color: #fff;}
+.roomListItem--selected:hover p.roomListItem__roomName.roomListItem__roomName {color: #fff;}
+
+
+.searchEm { color: #216b9f; font-weight: bold;}
+.roomListItem--selected { background-color: #5289a5;}
+.roomListItem:hover{color:#333 !important;background-color:#5289a5;fill-opacity:.5}
+.roomListItem__roomInfoContainer>.roomListItem__roomInfo p.roomListItem__roomName { color: #c4c8d5;}
+.roomListItem__roomInfoContainer>.roomListItem__roomInfo p.roomListItem__roomName--unread { color: #96d7f5 !important;}
+.__x-ResizeGroupListHeight-enabled #_roomListItems .roomIcon img { margin-bottom: 5px;}
+.roomListItem__pin { fill: #a8b2b6;}
+.__x-FlatStyle-enabled .button { background-image: none; box-shadow: none; border-radius: 0; border: none; background-color: #34362f; margin: .5px;color: #fff;}
+a.button.btnLarge { background-color: transparent;}
+div#_chatFileAll { background-color: transparent;}
+div#_chatRoomSetting {background-color: transparent;}
+.chatTimeLineMessageMention .actionNav {background: #dcf0fa; border-right: 1px solid #dcf0fa; border-bottom: 1px solid #b1d6ed; border-left: 1px solid #dcf0fa;}
+
+.chatTimeLineMessageMention .chatTimeLineMessageInner { border-top: 1px solid #dcf0fa; border-bottom: 1px solid #dcf0fa;}
+.chatTimeLineMessageMention .chatTimeLineMessageInner  .chatTimeLineMessageHover { border-top: 1px solid #dcf0fa; border-bottom: 1px solid #dcf0fa;}
+.chatTimeLineMessageMention { background: rgba(220, 240, 250, 0.37);}
+.chatTimeLineMessageMention  .chatTimeLineMessageHover { background: rgba(220, 240, 250, 0.37);}
+.messageBadge .chatTimeLineReply {background-color: #5c85a3;}
+.messageBadge .chatTimeLineTo {background-color: #5c85a3;}
+.messageBadge__avatar {border: 1px solid #5c85a3;}
+div#_memberAdditionSelectAllBtn { background-color: transparent;}
+.js_invitationLinkBtnCopy._button._cwBN.button { color: #fff;}
+._cwDGButton._cwDGButtonCancel.button.buttonGray {background-color: #c8c6c6; margin-left: 10px;}
+
+#_chatContent::-webkit-scrollbar {width: 8px; border: none;}
+#_roomListArea::-webkit-scrollbar {width: 4px; border: none;}
+#_subContentArea::-webkit-scrollbar {width: 4px; border: none;}
+::-webkit-scrollbar-track {visibility: hidden;}
+::-webkit-scrollbar-thumb {background-color: #5289a5;  border-radius: 7px; border: none;}
+
+ul#_subRoomMemberList img._avatarHoverTip._avatarClickTip.avatarClickTip._avatar {border: 1px solid #7e7d7d; filter: grayscale(80%) hue-rotate(180deg)}
+._roomLink._moveButton.button { color: #fff;}
+.btnGroup .button+.button { color: #fff;}
+._joinLive.button {color: #fff;}
+.roomLimitOver__text {margin-bottom: 5px; display: none;}
+.uiDropDown__button:hover {border-color: transparent; background-color: transparent;}
+.uiDropDown__button {height: 24px; padding: 0 2px 0 8px; border: 1px solid rgba(169, 167, 167, 0); background-color: #787777;}
+.roomLimitOver__moreLoadButton {border: 1px solid transparent; color: #34362f; background-color: #787777;}
+._cwDGButton.button.buttonGray {background-color: #b4b4b4;}
+img#_subRoomIcon { width: 30px; height: 30px;}
+svg.addTaskContainer__assigneeAddButtonIcon {fill: #fff;}
+svg.addTaskContainer__limitSelectButtonIcon {fill: #fff;}
+span.icoFontInfo.marginRight {display: none;}
+code.chatCode.hljs {background-color: #f3f3f3; border: 1px dotted #abaaaa;}
+
+
+/* 背景黒くしたい時 
+div#_subRoomDescription>pre {color: #fff;}
+div#_subRoomDescription>pre a {color: #97e4ff;}
+div#_subRoomDescription .chatInfo {color: #333; background-color: #fff;}
+div#_subContentArea {background-color: #888888; color: #fff;}
+.roomTask__header {background-color: transparent; color: #fff; border: transparent;}
+.addTaskContainer__formContainer {background-color: #727272;}
+label._cwCBLabel.cwTextUnselectable.linkStatus {color: #fff;} 
+svg.roomDescription__editButtonIcon {fill: #fff;}
+div#_subRoomProfileLink a {color: #97e4ff; text-decoration: underline;}
+ 背景黒用ここまで */
+
+
+
